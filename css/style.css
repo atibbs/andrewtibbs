@@ -22,7 +22,7 @@ body, p { font-family: 'texgyrescholaregular', Georgia, serif; }
 
 strong, b { font-family: 'texgyrescholabold', Georgia, serif; }
 
-h1, p a, em, i, .social-links li { font-family: 'texgyrescholaitalic', Georgia, serif; }
+h1, p a, em, i, .subhead, .social-links li { font-family: 'texgyrescholaitalic', Georgia, serif; }
 
 * { box-sizing: border-box; }
 
@@ -33,6 +33,8 @@ h1 { font-size: 30px; text-transform: uppercase; letter-spacing: 1px; text-align
 a, a:link, a:visited, a:hover { color: #f6523c; }
 
 p { font-size: 17px; line-height: 22px; }
+
+.subhead { font-size: 25px; }
 
 header { margin-top: 50px; margin-bottom: 50px; }
 
@@ -55,7 +57,7 @@ footer { margin-top: 40px; padding-bottom: 80px; }
 .linkedin:before { content: ""; display: block; background: url("../img/sprite.png") no-repeat -5px -72px; background-size: 100px 300px; width: 21px; height: 21px; position: absolute; left: 0px; }
 
 /* ========================================================================== Media Queries ========================================================================== */
-@media only screen and (min-width: 480px) { header { margin-top: 150px; }
+@media only screen and (min-width: 480px) { header { margin-top: 120px; margin-bottom: 30px; }
   .logo { float: left; margin-right: 35px; }
   h1 { font-size: 35px; margin-top: 7px; }
   .social-links li { display: inline-block; padding: 0 20px; width: auto; }

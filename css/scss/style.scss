@@ -117,6 +117,11 @@ strong, b {
     @extend %primary-bold;
 }
 
+.subhead {
+    font-size: 25px;
+    @extend %primary-italic;
+}
+
 // Layout
 header {
     margin-top: 50px;
@@ -212,7 +217,8 @@ footer {
 @media only screen and (min-width: 480px) {
 
     header {
-        margin-top: 150px;
+        margin-top: 120px;
+        margin-bottom: 30px;
     }
 
     .logo {
