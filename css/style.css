@@ -42,7 +42,7 @@ header { margin-top: 50px; margin-bottom: 50px; }
 
 .fleuron { width: 60px; height: auto; display: block; margin: 40px auto; }
 
-footer { margin-top: 40px; }
+footer { margin-top: 40px; padding-bottom: 80px; }
 
 .social-links { list-style: none; text-align: center; }
 .social-links li { display: block; padding: 20px; font-size: 14px; width: 100%; }
@@ -58,7 +58,7 @@ footer { margin-top: 40px; }
 @media only screen and (min-width: 480px) { header { margin-top: 150px; }
   .logo { float: left; margin-right: 35px; }
   h1 { font-size: 35px; margin-top: 7px; }
-  .social-links li { display: inline-block; padding: 0 20px; }
+  .social-links li { display: inline-block; padding: 0 20px; width: auto; }
   .social-links li a { margin-right: 0px; } }
 /* ========================================================================== Helper classes ========================================================================== */
 .ir { background-color: transparent; border: 0; overflow: hidden; *text-indent: -9999px; }
